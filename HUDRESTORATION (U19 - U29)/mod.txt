@@ -1,23 +1,17 @@
 {
  "name" : "Restoration Mod",
  "description" : "This restores many HUD, Menu, and other functionality that were abandoned before the release of PAYDAY 2."
- "author" : "Martini & Doktor Akcel & The Restoration Mod Crew",
- "contact" : "[email protected]",
- "version" : "5.1.4",
+ "author" : "xandu - porting the mod, everybody else in the reshud team for creating the mod",
+ "version" : "33",
  "priority" : 45,
- "updates" : [
-  {
-   "revision" : 45,
-   "identifier" : "restoration",
-  },
-  {
-   "revision" : "./assets/mod_overrides/RestorationMod/revision.txt",
-   "identifier" : "restoration_mod_overrides",
-   "install_dir" : "assets/mod_overrides/",
-   "install_folder" : "RestorationMod",
-   "display_name" : "Restoration Mod mod_overrides"
-  }
-  ],
+	"updates" : [
+		{
+			"identifier" : "U19U29",
+			"host": {
+				"meta": "https://raw.githubusercontent.com/xanduu/OLD-PD2-Restoration-Hud/meta/meta.json"
+			}
+		}
+	],
  "persist_scripts" : [
 { "global" : "RestorationTweak", "script_path" : "lua/TweakData.lua" }
 ],
@@ -141,12 +135,5 @@
 	"hook_id" : "lib/tweak_data/charactertweakdata",
    "script_path" : "Core.lua"
   }
- ],
- "libraries" : [
-        {
-            "display_name" : "BeardLib",
-            "identifier" : "beardlib",
-            "optional" : "false"
-        }
-    ]
+ ]
 }
