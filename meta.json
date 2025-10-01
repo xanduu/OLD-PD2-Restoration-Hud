@@ -1,0 +1,26 @@
+[
+    {
+        "ident" : "RESHUDmain",
+        "version" : "33",
+        "patchnotes_url" : "https://github.com/xanduu/OLD-PD2-Restoration-Hud/commits/main",
+        "download_url" : "https://github.com/xanduu/OLD-PD2-Restoration-Hud/archive/refs/heads/U19-U29.zip"
+    },
+    {
+        "ident" : "U30U57",
+        "version" : "33",
+        "patchnotes_url" : "https://github.com/xanduu/OLD-PD2-Restoration-Hud/commits/main",
+        "download_url" : "https://github.com/xanduu/OLD-PD2-Restoration-Hud/archive/refs/heads/U19-U29.zip"
+    },
+    {
+        "ident" : "U19U29",
+        "version" : "33",
+        "patchnotes_url" : "https://github.com/xanduu/OLD-PD2-Restoration-Hud/commits/main",
+        "download_url" : "https://github.com/xanduu/OLD-PD2-Restoration-Hud/archive/refs/heads/U19-U29.zip"
+    },
+    {
+        "ident" : "RELEASEU18",
+        "version" : "33",
+        "patchnotes_url" : "https://github.com/xanduu/OLD-PD2-Restoration-Hud/commits/main",
+        "download_url" : "https://github.com/xanduu/OLD-PD2-Restoration-Hud/archive/refs/heads/U19-U29.zip"
+    }
+]
