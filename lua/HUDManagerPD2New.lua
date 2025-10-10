@@ -121,11 +121,7 @@ function HUDManager:_add_name_label(data)
 	if is_husk_player then
 		peer_id = data.unit:network():peer():id()
 		local level = data.unit:network():peer():level()
-		rank = data.unit:network():peer():rank()
-		if level then
-			local experience = (rank > 0 and managers.experience:rank_string(rank) .. "-" or "") .. level
-			data.name = data.name .. " [" .. experience .. "]"
-		end
+		data.name = data.name .. " [" .. level .. "]"
 	end
 	local panel = hud.panel:panel({
 		name = "name_label" .. id
