@@ -2,7 +2,7 @@
  "name" : "Restoration Mod",
  "description" : "This restores many HUD, Menu, and other functionality that were abandoned before the release of PAYDAY 2."
  "author" : "xandu - porting the mod, everybody else in the reshud team for creating the mod",
- "version" : "33",
+ "version" : "34",
  "priority" : 45,
 	"updates" : [
 		{
