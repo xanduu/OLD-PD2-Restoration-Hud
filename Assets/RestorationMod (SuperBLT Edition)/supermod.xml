@@ -1,0 +1,70 @@
+﻿<?xml version="1.0"?>
+<mod name="ResMod">
+	<hooks>
+		<post script_path="mod.lua" hook_id="core/lib/managers/coreenvironmentcontrollermanager"/>
+	</hooks>
+
+	<assets base_path="assets/">
+		<group dyn_package="false" target="immediate" load_group="main">
+			<group name="guis/">
+
+<file :name="dlcs/gage_pack_jobs/textures/pd2/endscreen/gage_assignment.texture"/>
+
+<file :name="textures/trial_backup.texture"/>
+<file :name="textures/trial_bank.texture"/>
+<file :name="textures/trial_bridge.texture"/>
+<file :name="textures/trial_diamondheist.texture"/>
+<file :name="textures/hud_icons.texture"/>
+
+<file :name="textures/loading/loading_bg.texture"/>
+
+<file :name="textures/pd2/cn_miniskull.texture"/>
+<file :name="textures/pd2/crimenet_legend_risklevel.texture"/>
+<file :name="textures/pd2/crimenet_skull.texture"/>
+<file :name="textures/pd2/equipment.texture"/>
+<file :name="textures/pd2/hot_cold_glow.texture"/>
+<file :name="textures/pd2/hud_corner.texture"/>
+<file :name="textures/pd2/hud_difficultymarkers.texture"/>
+<file :name="textures/pd2/hud_health.texture"/>
+<file :name="textures/pd2/hud_icon_hostage.texture"/>
+<file :name="textures/pd2/hud_progress_active.texture"/>
+<file :name="textures/pd2/hud_progress_bg.texture"/>
+<file :name="textures/pd2/hud_progress_invalid.texture"/>
+<file :name="textures/pd2/hud_radialbg.texture"/>
+<file :name="textures/pd2/hud_radial_rim.texture"/>
+<file :name="textures/pd2/hud_shield.texture"/>
+<file :name="textures/pd2/hud_stealthmeter.texture"/>
+<file :name="textures/pd2/hud_stealthmeter_bg.texture"/>
+<file :name="textures/pd2/hud_stealth_exclam.texture"/>
+<file :name="textures/pd2/hud_stealth_eye.texture"/>
+<file :name="textures/pd2/hud_tabs.texture"/>
+<file :name="textures/pd2/icon_mission_overview_unknown.texture"/>
+<file :name="textures/pd2/level_ring_potential_small.texture"/>
+<file :name="textures/pd2/level_ring_small.texture"/>
+<file :name="textures/pd2/pd2_waypoints.texture"/>
+<file :name="textures/pd2/risklevel_blackscreen.texture"/>
+<file :name="textures/pd2/risklevel_deathwish_blackscreen.texture"/>
+
+<file :name="textures/pd2/endscreen/exp_ring.texture"/>
+<file :name="textures/pd2/endscreen/stealth_bonus.texture"/>
+<file :name="textures/pd2/lootscreen/loot_cards.texture"/>
+
+<file :name="textures/pd2/mission_briefing/dallas/dallas.texture"/>
+<file :name="textures/pd2/mission_briefing/vlad/bd_patternold.dds"/>
+<file :name="textures/pd2/mission_briefing/vlad/contact_effect_01.texture"/>
+<file :name="textures/pd2/mission_briefing/vlad/contact_effect_02.texture"/>
+<file :name="textures/pd2/mission_briefing/vlad/contact_effect_03.texture"/>
+<file :name="textures/pd2/mission_briefing/vlad/contact_effect_04.texture"/>
+</group>
+
+<group name="units/world/">
+<file :name="architecture/desert/des_bazaar_shop/des_bazaar_shop_df.texture"/>
+<file :name="architecture/desert/des_bazaar_shop/des_bazaar_shop_nm.texture"/>
+<file :name="architecture/desert/des_bazaar_stand/des_bazaar_stand_df.texture"/>
+
+<file :name="props/yacht/basket/generic_fruit_nm.texture"/>
+<file :name="props/yacht/drugs/lxy_prop_party_drugs_nm.texture"/>
+</group>
+</group>
+</assets>
+</mod>
