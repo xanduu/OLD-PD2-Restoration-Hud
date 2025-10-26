@@ -1,6 +1,0 @@
-{
-	"name": "Restoration Mod Assets",
-	"description": "Restoration Mod but using supermods",
-	"author": "xandu",
-	"version": "1"
-}
