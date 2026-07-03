@@ -443,9 +443,11 @@ function HUDTemp:show_carry_bag(carry_id, value)
 	local type_text = carry_data.name_id and managers.localization:text(carry_data.name_id)
 	local real_value = managers.money:get_secured_bonus_bag_value(carry_id, value)
 	local bag_text = bag_panel:child("bag_text")
-	bag_text:set_text(utf8.to_upper(type_text .. [[
- 
- ]] .. managers.experience:cash_string(real_value)))
+		if carry_data.skip_exit_secure == true then
+			bag_text:set_text(utf8.to_upper(type_text))
+		else
+			bag_text:set_text(utf8.to_upper(type_text .. "\n" .. tostring(managers.experience:cash_string(real_value))))
+		end
 	bag_panel:set_x(self._temp_panel:parent():w() / 2)
 	bag_panel:set_visible(true)
 	--self._bg_box:child("bag_text"):set_visible(false)
